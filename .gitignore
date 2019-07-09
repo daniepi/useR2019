@@ -1,2 +1,12 @@
 .Rproj.user
-.Rd
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+# man
+man/*.Rd
