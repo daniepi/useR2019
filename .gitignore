@@ -10,3 +10,4 @@ vignettes/*.html
 vignettes/*.pdf
 # man
 man/*.Rd
+inst/doc

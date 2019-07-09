@@ -1,0 +1,19 @@
+---
+title: "packageDev"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{packageDev}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(packageDev)
+```

@@ -1,10 +1,11 @@
 #' @title Adding a new column
-#' @param dat a data.table object
+#' @param data a data.table object
 #' @param column a vector
 #' @param colName a character
 #' @param where a integer
 #' @return a modified data.table
 #' @import data.table
+#' @importFrom utils head tail
 #' @export
 #'
 InsertColumn <- function(data, column, colName = "column", where = 1) {

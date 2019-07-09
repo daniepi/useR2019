@@ -1,7 +1,8 @@
-context("InsertColumn unit tests")
-
 data <- data.table::data.table(a = 1, b = 2)
 col <- c(3)
+
+# ---------------------------------------------------------------------------------------------
+
 
 test_that("Fbind returns error if column already exists", {
     expect_error(InsertColumn(data, col, colName = "b", where = 3), regexp = "already in data!")

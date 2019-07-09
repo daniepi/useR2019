@@ -3,3 +3,5 @@
 export(InsertColumn)
 export(fbind)
 import(data.table)
+importFrom(utils,head)
+importFrom(utils,tail)
